@@ -52,8 +52,8 @@ export class ImageFormatCollection extends BaseClass {
   public constructor (client: Client, data: any) {
     super(client)
 
-    this.jpg = data.jpg != null ? new Image(client, data.jpg) : null
-    this.webp = data.webp != null ? new Image(client, data.webp) : null
+    this.jpg = data?.jpg != null ? new Image(client, data.jpg) : null
+    this.webp = data?.webp != null ? new Image(client, data.webp) : null
   }
 }
 
