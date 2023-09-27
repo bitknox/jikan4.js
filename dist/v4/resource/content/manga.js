@@ -11,9 +11,9 @@ class MangaPublishInformation extends base_1.BaseClass {
         switch (input === null || input === void 0 ? void 0 : input.toLowerCase().trim()) {
             case 'finished': return 'Finished';
             case 'publishing': return 'Publishing';
-            case 'on hiatus': return 'OnHiatus';
+            case 'on hiatus': return 'On Hiatus';
             case 'discontinued': return 'Discontinued';
-            case 'not yet published': return 'NotYetPublished';
+            case 'not yet published': return 'Not Yet Published';
             default: return 'Unknown';
         }
     }
@@ -32,8 +32,8 @@ class Manga extends base_2.Content {
         switch (input === null || input === void 0 ? void 0 : input.toLowerCase().trim()) {
             case 'manga': return 'Manga';
             case 'novel': return 'Novel';
-            case 'light novel': return 'LightNovel';
-            case 'one-shot': return 'OneShot';
+            case 'light novel': return 'Light Novel';
+            case 'one-shot': return 'One Shot';
             case 'doujinshi':
             case 'doujin': return 'Doujinshi';
             case 'manhua': return 'Manhua';

@@ -3,8 +3,8 @@ import { BaseClass, BaseResource } from '../base';
 import { Content, ContentRelationType, ContentRelationGroup, ContentNews, ContentStatistics, ContentUserUpdate, ContentReactions, ContentReview, ContentExternal } from './base';
 import { PersonMeta, MagazineMeta, MangaGenreMeta, CharacterMeta, MangaMeta, AnimeMeta } from '../meta';
 import { ImageFormatCollection } from '../misc';
-export type MangaType = 'Manga' | 'Novel' | 'LightNovel' | 'OneShot' | 'Doujinshi' | 'Manhua' | 'Manhwa' | 'OEL' | 'Unknown';
-export type MangaPublishStatus = 'Finished' | 'Publishing' | 'OnHiatus' | 'Discontinued' | 'NotYetPublished' | 'Unknown';
+export type MangaType = 'Manga' | 'Novel' | 'Light Novel' | 'One Shot' | 'Doujinshi' | 'Manhua' | 'Manhwa' | 'OEL' | 'Unknown';
+export type MangaPublishStatus = 'Finished' | 'Publishing' | 'On Hiatus' | 'Discontinued' | 'Not Yet Published' | 'Unknown';
 export declare class MangaPublishInformation extends BaseClass {
     /** @hidden */
     static parseMangaPublishStatus(input: any): MangaPublishStatus;

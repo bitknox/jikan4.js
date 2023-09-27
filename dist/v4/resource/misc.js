@@ -36,8 +36,8 @@ class ImageFormatCollection extends base_1.BaseClass {
     }
     constructor(client, data) {
         super(client);
-        this.jpg = data.jpg != null ? new Image(client, data.jpg) : null;
-        this.webp = data.webp != null ? new Image(client, data.webp) : null;
+        this.jpg = (data === null || data === void 0 ? void 0 : data.jpg) != null ? new Image(client, data.jpg) : null;
+        this.webp = (data === null || data === void 0 ? void 0 : data.webp) != null ? new Image(client, data.webp) : null;
     }
 }
 exports.ImageFormatCollection = ImageFormatCollection;
